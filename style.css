@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+.header {
+    height: 50px;
+    background: black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.shop {
+    color: white;
+    margin: 10px;
+    font-size: 14pt;
+}
+.account {
+    display: flex;
+    align-items: center;
+}
+.header_bg {
+    height: 200px;
+    width: 100%;
+    background-image: url(assets/header_bg.png);
+    display: flex;
+    vertical-align: bottom;
+}
+.logo {
+    height: 120px;
+    width: 300px;
+    margin: 80px 0 0 80px;
+    text-align: -webkit-center;
+    background-image: url("assets/logo_plane.png");
+}
+.white {
+    height: 60px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: white;
+    vertical-align: center;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Arial Black";
+    font-size: 24pt;
+    color: #b70001;
+
+}
+.register {
+    width: 937px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-right: 60px;
+}
+.wifi, .twitter, .facebook {
+    height: 40px;
+    width: 40px;
+}
+.reg1 {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.reg2 {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.link {
+    font-size: 10pt;
+}
+.text1 {
+    color: grey;
+    font-family: "Arial";
+}
+.or {
+    color: white;
+    font-size: 10pt;
+    font-family: Arial;
+}
+.menu {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+.text2 {
+    font-size: 10pt;
+}
+.main {
+    height: 1800px;
+    padding: 15px;
+    background-image: url(assets/bg_pattern.png);
+}
+.blocks {
+    width: 120px;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer {
+    height: 100px;
+    margin-top: 50px;
+    text-align: right;
+    font-size: 14pt;
+    color: #b70001;
+    font-family: Arial;
+}
+.img1 {
+    background-image: url(assets/image1.jpg);
+    background-position:center center;
+    background-size: cover;
+    height: 15%;
+    margin: 50px;
+    padding: 2%;
+}
+.box {
+    height: 500px;
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: -webkit-center;
+    background-image: url("assets/content_plane_bg.png");
+}
+.first, .second {
+    display: flex;
+    margin: 20px;
+}
+.image {
+    width: 100%;
+    height: 70%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/image1.jpg");
+}
+.content {
+    text-align: left;
+    padding-left: 20px;
+}
+p {
+    font-size: 24pt;
+    color: white;
+    font-family: Arial;
+    margin-bottom: 0;
+}
+a {
+    font-size: 16pt;
+    color:  #b70001;
+    font-family: Arial;
+    text-decoration: none;
+}
+.box1 {
+    height: 680px;
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    background-image: url("assets/content_plane_bg.png");
+}
+.cont1 {
+    height: 120px;
+    margin-top: -25px;
+    vertical-align: middle;
+    background-image: url("assets/dark background.jpg");
+}
+.p {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18pt;
+    color: white;
+    font-family: Arial;
+    margin-bottom: 0;
+}
+.image2 {
+    height: 210px;
+    background-image: url("assets/image1.jpg");
+    margin: 30px 15px 30px 15px;
+    background-size: cover;
+}
+.cont2 {
+    font-size: 14pt;
+    color: white;
+    font-family: Arial;
+    margin: 15px;
+}
+.news {
+    display: flex;
+    margin: -10px 0 -50px 0;
+}
+.img3 {
+    margin: 40px;
+    height: 150px;
+    width: 150px;
+    background-image: url("assets/image1.jpg");
+    background-size: cover;
+    text-align: -webkit-center;
+}
+.date {
+    width: 120px;
+    height: 40px;
+    background-color: #b70001;
+    margin: 40px 0 0 -15px;
+    border-right: solid white;
+    border-top: solid white;
+    color: white;
+    font-family: Arial;
+    font-size: 18pt;
+    text-align: center;
+    line-height: 1.5em;
+}
+.text {
+    width: 150px;
+}
+.inner_text {
+    color: white;
+    font-family: Arial;
+    margin: 10px 0 0 -10px;
+    line-height: 25px;
+}
+
